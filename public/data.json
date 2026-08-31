@@ -1,0 +1,386 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Creamy Nutty Kulfi",
+      "flavor": "malai, pista, and saffron",
+      "price": 1200,
+      "image": "https://im.rediff.com/getahead/2022/jun/22food.jpg?w=830&h=1000",
+      "description": "A traditional Indian frozen dessert. It is made by slow-boiling milk until thick and is not churned, making it very dense and creamy.",
+      "rating": 4.6,
+      "ingredients": [
+        {
+          "ingr_name": "Milk",
+          "ingr_description": "750 ml full-fat milk. 1/3 cup milk + 4 tbsp milk."
+        },
+        {
+          "ingr_name": "Walnuts",
+          "ingr_description": "½ cup walnuts, soaked overnight."
+        },
+        {
+          "ingr_name": "Sugar",
+          "ingr_description": "4 tbsp sugar (use 5 tbsp if you prefer it slightly sweeter)."
+        },
+        {
+          "ingr_name": "Flour",
+          "ingr_description": "3 tbsp aata or whole wheat flour."
+        },
+        {
+          "ingr_name": "Cream",
+          "ingr_description": "100 ml cream."
+        },
+        {
+          "ingr_name": "Cardamom",
+          "ingr_description": "¼ tsp ground green elaichi or cardamom."
+        },
+        {
+          "ingr_name": "Kesar or saffron",
+          "ingr_description": "Few strands kesar or saffron."
+        },
+        {
+          "ingr_name": "Crushed",
+          "ingr_description": "2 tbsp crushed toasted walnuts, crushed."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dondurma",
+      "flavor": "classic, fruity, and nut-based flavors",
+      "price": 900,
+      "image": "https://ichef.bbci.co.uk/images/ic/1024xn/p0jchl7h.jpg.webp",
+      "description": "A chewy and stretchy Turkish ice cream. It uses special ingredients like mastic and salep to give it an elastic texture.",
+      "rating": 4.2,
+      "ingredients": [
+        {
+          "ingr_name": "Milk",
+          "ingr_description": "Usually goat's milk (traditional for Maraş dondurma), though cow's milk or a blend is commonly used today."
+        },
+        {
+          "ingr_name": "Sugar",
+          "ingr_description": "Granulated or caster sugar to sweeten the base."
+        },
+        {
+          "ingr_name": "Salep (or Sahlep)",
+          "ingr_description": "A unique flour made from the ground-up bulbs of wild orchids. It contains glucomannan, a natural dietary fiber that acts as a powerful stabilizer and creates the signature stretchy, chewy consistency."
+        },
+        {
+          "ingr_name": "Mastic Resin (Sakız)",
+          "ingr_description": "An aromatic plant resin from the mastic tree that adds a subtle, pine-like fragrance and enhances elasticity."
+        },
+        {
+          "ingr_name": "Heavy Cream or Kaymak",
+          "ingr_description": "Added to increase richness, creaminess, and fat content."
+        },
+        {
+          "ingr_name": "Flavorings",
+          "ingr_description": " Vanilla, chocolate, or toppings like crushed pistachios and cinnamon served on the side."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mochi Ice Cream",
+      "flavor": "fruity, and dessert-inspired flavor",
+      "price": 1500,
+      "image": "https://www.yummytummyaarthi.com/wp-content/uploads/2021/06/ice-cream-mochi-1.jpg",
+      "description": "Ice cream Mochi is a classic Japanese dessert made from glutinous rice, sugar, oil, cornstarch, milk and ice cream. The cold, creamy ice cream is wrapped with a soft, chewy mochi dough making it a fun and delicious dessert.",
+      "rating": 3.9,
+      "ingredients": [
+        {
+          "ingr_name": "Sticky rice",
+          "ingr_description": "This is the main ingredient used for making the dough. Soak the sticky rice in water overnight. The rice gives the soft, chewy texture to the mochi."
+        },
+        {
+          "ingr_name": "Milk",
+          "ingr_description": "I have used ½ cup full fat milk to grind the sticky rice. It adds the soft, rich taste to the mochi and prevents it from drying out. If you want to make it dairy free, try adding coconut milk, almond or cashew milk."
+        },
+        {
+          "ingr_name": "Sugar",
+          "ingr_description": "I have added 3 tablespoons of granulated white sugar for the sweetness."
+        },
+        {
+          "ingr_name": "Oil",
+          "ingr_description": "Oil makes the mochi soft and avoids sticking. Use any neutral oil like canola oil or vegetable oil."
+        },
+        {
+          "ingr_name": "Ice cream",
+          "ingr_description": "This is used as a filling for the mochi. You can add any ice cream flavour of your choice like strawberry, mango, chocolate, butterscotch or blueberry. It adds the main flavouring and creaminess that contrasts beautifully with the chewy outer layer."
+        },
+        {
+          "ingr_name": "Cornstarch",
+          "ingr_description": "Cornstarch, also known as cornflour, is used to make a non-sticky mochi dough and makes rolling and shaping easier without sticking to the hands or surface."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rolled Ice Cream",
+      "flavor": "Oreo, Nutella, Strawberry Cheesecake, and Mango",
+      "price": 1399,
+      "image": "https://icecreamfromscratch.com/wp-content/uploads/2022/11/Rolled-Ice-Cream-1.2.jpg",
+      "description": "This type of ice cream hails from Thailand and is a popular street food throughout Southeast Asia. Here, the standard ingredients (milk, cream, sugar) are heated, aerated and rapidly cooled to produce Swiss roll-style ribbons of ice cream that can be served upright in a cup and finished with a wide variety of toppings. The process is fascinating to watch and the finished product tastes as good as it looks.",
+      "rating": 4.3,
+      "ingredients": [
+        {
+          "ingr_name": "Heavy Cream",
+          "ingr_description": "Provides the high fat content needed to make smooth, flexible rolls that do not crack."
+        },
+        {
+          "ingr_name": "Sweetened Condensed Milk",
+          "ingr_description": "Sweetens the mixture and adds thickness so it stays soft enough to scrape into curls."
+        },
+        {
+          "ingr_name": "Whole Milk",
+          "ingr_description": "Thins out heavy cream mixtures for a lighter texture."
+        },
+        {
+          "ingr_name": "Granulated Sugar",
+          "ingr_description": "Used instead of condensed milk when making a traditional dairy base."
+        },
+        {
+          "ingr_name": "Vanilla Extract",
+          "ingr_description": "Enhances the base flavor."
+        },
+        {
+          "ingr_name": "Pinch of Salt",
+          "ingr_description": "Balances the overall sweetness."
+        },
+        {
+          "ingr_name": "Cookies",
+          "ingr_description": "Crushed Oreos or graham crackers."
+        },
+        {
+          "ingr_name": "Fresh Fruit",
+          "ingr_description": "Diced strawberries, mango, or blueberries."
+        },
+        {
+          "ingr_name": "Spreads and Syrups",
+          "ingr_description": "Nutella, peanut butter, chocolate syrup, or caramel sauce."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Frozen Yoghurt",
+      "flavor": "classic, fruit, dessert-inspired, and tart",
+      "price": 999,
+      "image": "https://www.giallozafferano.com/images/303-30390/frozen-yogurt_780x520_wm.jpg",
+      "description": "Frozen yoghurt has a much lower percentage of fat than ice cream and due to the cultured milk used, it has a slightly more sour taste. The consistency is similar to ice cream.",
+      "rating": 4.5,
+      "ingredients": [
+        {
+          "ingr_name": "Milk or Cream",
+          "ingr_description": " Provides the creamy dairy base. Skim or whole milk keeps it lower in fat than ice cream, while a touch of cream adds richness."
+        },
+        {
+          "ingr_name": "Yogurt Cultures",
+          "ingr_description": " Cultured milk or yogurt adds the specific tangy taste and live bacteria."
+        },
+        {
+          "ingr_name": "Sugar",
+          "ingr_description": " Sweetens the dessert and stops large ice crystals from forming during freezing."
+        },
+        {
+          "ingr_name": "Stabilizers and Solids",
+          "ingr_description": " Ingredients like whey, nonfat dry milk, or gums (such as guar gum or pectin) are often added in commercial recipes to improve texture and smoothness."
+        },
+        {
+          "ingr_name": "Fruits and Extracts",
+          "ingr_description": " Real fruit purees, vanilla extract, or cocoa powder are mixed in for different tastes."
+        },
+        {
+          "ingr_name": "Toppings",
+          "ingr_description": "Often served with fresh fruit, nuts, syrups, or candies."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sorbet",
+      "flavor": "refreshing fruit, citrus, and gourmet flavours",
+      "price": 1099,
+      "image": "https://kitchenconfidante.com/wp-content/uploads/2023/09/Strawberry-Cointreau-Sorbet-kitchenconfidante.com-6523-1025x1536.jpg",
+      "description": "Sorbet is lighter in texture and flavour – it’s made using fruit or fruit puree and sweetened water, with little to no dairy. It’s often used as a palette cleanser between courses because it’s refreshing and helps to revive taste buds!",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "ingr_name": "Fruit",
+          "ingr_description": "Pureed fresh fruit, frozen fruit, or fruit juice (such as mango, raspberry, lemon, or passion fruit)."
+        },
+        {
+          "ingr_name": "Water",
+          "ingr_description": "Used to dilute the fruit and build the liquid base."
+        },
+        {
+          "ingr_name": "Sugar",
+          "ingr_description": "Sweetens the mix and controls the freezing point so the texture stays soft instead of turning into a solid block of ice. Honey or agave can also be used."
+        },
+        {
+          "ingr_name": "Citrus juice",
+          "ingr_description": "Lemon or lime juice to brighten the flavor."
+        },
+        {
+          "ingr_name": "Alcohol",
+          "ingr_description": "A splash of liqueur or spirits to keep the texture extra soft."
+        },
+        {
+          "ingr_name": "Herbs or spices",
+          "ingr_description": "Mint, basil, or ginger for unique flavor twists."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Snow Cream",
+      "flavor": "vanilla extract, but it can be customized with many different flavors.",
+      "price": 899,
+      "image": "https://i0.wp.com/www.chasingtheseasons.com/wp-content/uploads/2020/12/snow-cream-3369.jpg?w=900&ssl=1",
+      "description": "Snow cream is a pretty unique dessert, and is still relatively new on the scene. It comes in a variety of Asian-inspired flavours, such as black sesame and green tea, and is made by shaving ribbons off of large blocks. ",
+      "rating": 4.1,
+      "ingredients": [
+        {
+          "ingr_name": "Fresh Snow",
+          "ingr_description": "8 to 12 cups of clean, freshly fallen white snow (collected away from roads or pollution)."
+        },
+        {
+          "ingr_name": "Milk or Cream",
+          "ingr_description": "1 cup of whole milk, half-and-half, or heavy cream (you can also use canned sweetened condensed milk as an all-in-one milk and sweetener substitute)."
+        },
+        {
+          "ingr_name": "Sugar",
+          "ingr_description": "1/2 cup of granulated sugar or powdered sugar (adjust to taste, or omit if using sweetened condensed milk)."
+        },
+        {
+          "ingr_name": "Salt",
+          "ingr_description": "A pinch of salt to balance the sweetness."
+        },
+        {
+          "ingr_name": "Chocolate snow cream",
+          "ingr_description": "Chocolate syrup or cocoa powder for chocolate snow cream."
+        },
+        {
+          "ingr_name": "Sprinkles",
+          "ingr_description": "Sprinkles, chocolate chips, or crushed fruit."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Faloodeh",
+      "flavor": "sweet, creamy, and floral.",
+      "price": 1099,
+      "image": "https://cookingwithsamira.com/wp-content/uploads/2025/01/Faloodeh-Shirazi-Recipe-800x840.jpg",
+      "description": "Faloodeh is a traditional Iranian frozen dessert, most similar to sorbet. It consists of vermicelli rice noodles, rose water, lime juice and cherry syrup. According to some sources, this was the first frozen dessert every invented, and can be found in coffee shops and ice cream parlours across Iran. ",
+      "rating": 3.7,
+      "ingredients": [
+        {
+          "ingr_name": "Chilled Milk",
+          "ingr_description": "Full-fat milk, often sweetened with sugar or condensed milk, or flavored with rabri/kheer."
+        },
+        {
+          "ingr_name": "Rose Syrup or Rooh Afza",
+          "ingr_description": "Gives the drink its signature pink color and floral sweet taste."
+        },
+        {
+          "ingr_name": "Sabja Seeds (Sweet Basil Seeds)",
+          "ingr_description": "Soaked in water until they swell into a gelatinous, cooling texture."
+        },
+        {
+          "ingr_name": "Falooda Sev (Vermicelli)",
+          "ingr_description": "Thin noodles made from cornstarch, arrowroot, or wheat."
+        },
+        {
+          "ingr_name": "Ice Cream",
+          "ingr_description": "Vanilla, kulfi, or strawberry scoops placed right on top."
+        },
+        {
+          "ingr_name": "Jelly",
+          "ingr_description": "Cubes of rose, strawberry, or green-colored gelatin."
+        },
+        {
+          "ingr_name": "Nuts",
+          "ingr_description": "Chopped pistachios, almonds, and cashews."
+        },
+        {
+          "ingr_name": "Fruits",
+          "ingr_description": "Diced apples, bananas, grapes, mango pulp, or pomegranate arils (in fruit falooda variants)."
+        },
+        {
+          "ingr_name": "Garnishes",
+          "ingr_description": " Tutti frutti or a glazed cherry."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Granita",
+      "flavor": "several traditional and fruity flavors.",
+      "price": 999,
+      "image": "https://bakerstreetsociety.com/wp-content/uploads/2021/05/2-1-2-1043x1536.jpg",
+      "description": "Granita is similar to sorbet in the fact there is no dairy, but unlike sorbet, there is no whipping in the process. Granita has a semi-liquid texture and only contains water, sugar and fruit juice, as well as some extra flavourings. The texture is coarser than other varieties – the ice crystals give it a granular appearance and crunch texture.",
+      "rating": 4.2,
+      "ingredients": [
+        {
+          "ingr_name": "Liquid Base",
+          "ingr_description": "Water, fresh fruit juice, fruit puree, freshly brewed coffee, or wine/spirits."
+        },
+        {
+          "ingr_name": "Sweetener",
+          "ingr_description": "Granulated sugar, simple syrup (a 1:1 or 2:1 ratio of sugar boiled and dissolved in water), honey, agave, or maple syrup. Sugar is vital because it stops the mixture from freezing into a hard, solid block of ice."
+        },
+        {
+          "ingr_name": "Acid / Flavor Balance",
+          "ingr_description": "A splash of lemon or lime juice (1 to 2 teaspoons) or citrus zest to brighten the flavor. A tiny pinch of salt is also often added to make fruit flavors pop."
+        },
+        {
+          "ingr_name": "Classic Lemon",
+          "ingr_description": "Lemon juice, water, sugar, and optional lemon zest."
+        },
+        {
+          "ingr_name": "Fruit",
+          "ingr_description": " Fresh fruit puree or strained juice, water, sugar, and lemon juice."
+        },
+        {
+          "ingr_name": "Coffee",
+          "ingr_description": "Freshly brewed coffee or espresso sweetened with sugar."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Italian Ice",
+      "flavor": "classic fruit, tropical, and creamy or novelty flavors.",
+      "price": 1199,
+      "image": "https://www.easyhomemeals.com/wp-content/uploads/lindys-watermelon-cooler.jpg",
+      "description": "Italian Ice is a frozen dessert made with water, sweetener and fruit. It’s similar to granita, but with a less coarse and crystalised texture, and a more tart taste. It can be scooped and eaten with a spoon, or served in a cone. It’s one of the healthier varieties of frozen dessert.",
+      "rating": 4.5,
+      "ingredients": [
+        {
+          "ingr_name": "Water",
+          "ingr_description": "Forms the base of the frozen treat."
+        },
+        {
+          "ingr_name": "Sugar (or Honey)",
+          "ingr_description": "Provides sweetness and helps control the freezing texture so it stays scoopable."
+        },
+        {
+          "ingr_name": "Fruit Juice or Purée",
+          "ingr_description": "Gives the dessert its natural fruit flavor (common flavors include lemon, cherry, mango, and lime)."
+        },
+        {
+          "ingr_name": "Citric Acid",
+          "ingr_description": "Adds a tart or sour kick, often used in commercial brands like Luigi's Italian Ice."
+        },
+        {
+          "ingr_name": "Stabilizers/Gums",
+          "ingr_description": "Ingredients like guar gum or xanthan gum are added to commercial mixes to prevent large ice crystals from forming and to keep the texture smooth."
+        },
+        {
+          "ingr_name": "Zest or Extract",
+          "ingr_description": " Lemon zest, mint leaves, or fruit extracts are frequently used in homemade recipes to boost flavor."
+        }
+      ]
+    }
+  ]
+}
