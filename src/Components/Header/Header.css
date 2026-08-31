@@ -1,14 +1,37 @@
 .logo {
-    transform: rotate(-4deg);
-    padding: 6px 12px;
-    border-radius: 14px 0;
-    box-shadow: 0 0 10px rgb(255, 71, 102);
-    background-color: white;
-    color: rgb(252, 35, 72);
-    transition: all 0.3s ease-in-out;
+  transform: rotate(-4deg);
+  padding: 6px 12px;
+  border-radius: 14px 0;
+  box-shadow: 0 0 10px rgb(255, 71, 102);
+  background-color: white;
+  color: rgb(252, 35, 72);
+  transition: all 0.3s ease-in-out;
 }
 .logo:hover {
-    transform: rotate(6deg);
-    border-radius: 0px 14px;
-    box-shadow: 0 0 15px rgb(252, 35, 72);
+  transform: rotate(6deg);
+  border-radius: 0px 14px;
+  box-shadow: 0 0 15px rgb(252, 35, 72);
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.tooltiptext {
+  position: absolute;
+  bottom: -40px;
+  left: -15px;
+  width:80px;
+  background-color: rgb(76, 76, 76);
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  visibility: hidden;
+  z-index: 1;
+  transition: all 0.3s ease-in;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
