@@ -29,7 +29,7 @@ const Home = () => {
                 />
               </Link>
             </div>
-            <div className="m-3 mb-5">
+            <div className="m-3 mb-5 w-full px-2">
               <Link
                 to={`/product-details/${item?.id}`}
               >
