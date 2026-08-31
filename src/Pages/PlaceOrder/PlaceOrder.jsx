@@ -76,7 +76,7 @@ const PlaceOrder = () => {
             <p>Total Price: {totalPrice}/-</p>
             <button
               onClick={() => setOpenPopup(true)}
-              className='mt-3 itemBtn'>Continue</button>
+              className='mt-3 itemBtn'>Place Order</button>
           </div>
         </div>
         {openPopup && (

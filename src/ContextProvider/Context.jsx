@@ -86,6 +86,10 @@ const ContextProvider = ({ children }) => {
         });
     };
 
+    const clearCart = () => {
+        setCart([]);
+    };
+
     const increament = (id) => {
         setCart((preQty) =>
             preQty.map((item) =>
@@ -116,7 +120,7 @@ const ContextProvider = ({ children }) => {
 
     return (
         <ContextData.Provider
-            value={{ data, cart, addToCart, increament, decreament }}
+            value={{ data, cart, addToCart, increament, decreament, clearCart }}
         >
             {children}
         </ContextData.Provider>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { IoIceCreamOutline } from "react-icons/io5";
 import { Link, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
@@ -36,10 +37,10 @@ const SignUp = () => {
 
   return (
     <div className="bg-white flex justify-center items-center w-full h-screen ">
-      <div className="rounded-lg shadow-2xl text-lg bg-pink-50 w-[500px] p-6 space-y-3">
-        <h1 className="text-center font-bold text-3xl mb-5">
-          Puja's Ice-cream
-        </h1>
+      <div className="rounded-lg shadow-2xl text-lg bg-pink-100 w-[380px] sm:w-[500px] p-3 sm:p-6 space-y-3">
+        <h1 className="font-bold text-3xl mb-5 flex items-center justify-center sm:text-2xl text-pink-600">
+                  Puja's Ice<IoIceCreamOutline size={30} />Cream
+                </h1>
         <form onSubmit={handleSignUp}>
           <div className="flex flex-col gap-2">
             <label className="font-semibold">Enter your name</label>

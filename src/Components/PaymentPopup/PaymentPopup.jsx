@@ -1,32 +1,34 @@
 import React, { useState } from "react";
 import { AiTwotoneLike } from "react-icons/ai";
-import { FaCheckCircle } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { IoCashOutline } from "react-icons/io5";
+import ThankYouPopup from "../ThankYouPopup/ThankYouPopup";
 
 const PaymentPopup = ({ closePopUp }) => {
+
     const [payMethod, setPayMethod] = useState("");
+    const [paymentSuccess, setPaymentSuccess] = useState(false);
 
     const hanldeMethod = () => {
-        if (payMethod === "cash") {
-            console.log("cash");
-        };
-
-        if (payMethod === "upi") {
-            console.log("upi");
-        };
+        setPaymentSuccess(true);
     };
+
+    if (paymentSuccess) {
+        return (
+            <ThankYouPopup closePopUp={closePopUp} payMethod={payMethod} />
+        );
+    }
 
     return (
         <div className="fixed inset-0 bg-black/50 flex justify-center items-center transition-all duration-300">
-            <div className="bg-white p-6 rounded-lg w-xl">
+            <div className="bg-white p-6 rounded-lg w-[380px] sm:w-xl">
                 <div className="relative">
                     <h2 className="text-xl font-serif font-semibold mb-3">
                         Select payment method
                     </h2>
                     <button
                         onClick={closePopUp}
-                        className="absolute -top-3.5 -right-3.5 cursor-pointer transition-all duration-300"
+                        className="absolute -top-3.5 -right-3.5 cursor-pointer"
                     >
                         <IoMdClose size={30} />
                     </button>
