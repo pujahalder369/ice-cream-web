@@ -39,22 +39,22 @@ const PlaceOrder = () => {
             <FaArrowLeftLong size={30} />
           </Link>
         </div>
-        <div className='grid grid-cols-2 gap-6'>
+        <div className='grid lg:grid-cols-2 gap-6'>
           {cart.map((item) => {
             const mainAmount = item.price * item.quty;
             const afterDisc = (mainAmount * discount) / 100;
             const payPrice = Math.floor(mainAmount - afterDisc);
             return (
-              <div key={item?.id} className='grid grid-cols-[38%_60%] items-center gap-2 p-6 pr-3.5 shadow-[0_0_10px_rgb(202,202,202)] rounded-lg'>
-                <div className='h-[250px] w-[250px]'>
+              <div key={item?.id} className='grid grid-cols-[38%_60%] items-center gap-2 p-3 sm:p-6 pr-3.5 shadow-[0_0_10px_rgb(202,202,202)] rounded-lg'>
+                <div className='h-full w-full'>
                   <img src={item?.image} alt={item?.name} className='object-cover h-full w-full rounded-lg' />
                 </div>
                 <div>
-                  <p className='font-semibold text-2xl mb-2'>{item?.name}
-                    <span className='text-gray-800 font-normal text-xl'> {`(${item?.flavor})`}</span>
+                  <p className='font-semibold text-xl sm:text-2xl mb-2'>{item?.name}
+                    <span className='text-gray-800 font-normal text-lg sm:text-xl'> {`(${item?.flavor})`}</span>
                   </p>
                   <p className='text-xl text-gray-600 line-through'>₹{item?.price}</p>
-                  <div className='border border-pink-500 rounded-md inline-flex text-xl my-3'>
+                  <div className='border border-pink-500 rounded-md inline-flex text-xl my-1 sm:my-3'>
                     <button className='px-3 font-bold' onClick={() => decreament(item.id)}>
                       -
                     </button>
@@ -63,14 +63,14 @@ const PlaceOrder = () => {
                       +
                     </button>
                   </div>
-                  <p className='text-xl font-semibold'>Total price: ₹{payPrice}</p>
+                  <p className='text-lg sm:text-xl font-semibold'>Total price: ₹{payPrice}</p>
                 </div>
               </div>
             );
           })}
         </div>
         <div className='my-5 text-right border-t'>
-          <div className='m-5 text-xl inline-flex flex-col text-left'>
+          <div className='m-2 sm:m-5 text-lg sm:text-xl inline-flex flex-col text-left'>
             <p className=' line-through text-gray-700'>MRP: {MrpPrice}/-</p>
             <p>Discount: {discount}%</p>
             <p>Total Price: {totalPrice}/-</p>

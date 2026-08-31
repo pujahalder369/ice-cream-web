@@ -15,10 +15,10 @@ const Home = () => {
   return (
     <div>
       <HeroBanner />
-      <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 p-4 pt-0 h-full">
+      <div className="w-full grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 p-4 pt-0 h-full">
         {data?.map((item) => (
-          <div className="min-h-[500px] flex flex-col items-center relative bg-gray-100 pt-3" key={item.id}>
-            <div className="h-[300px] w-[300px] rounded-full itemImage overflow-hidden">
+          <div className="min-h-[500px] flex flex-col items-center relative bg-gray-100 pt-3 px-2" key={item.id}>
+            <div className="h-[350px] w-[350px] sm:h-[300px] sm:w-[300px] rounded-full itemImage overflow-hidden">
               <Link
                 to={`/product-details/${item?.id}`}
               >
