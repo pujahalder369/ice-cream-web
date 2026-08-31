@@ -12,8 +12,8 @@ const Header = () => {
   }
   return (
     <div className='mb-20'>
-      <div className='fixed z-50 w-full flex justify-between items-center bg-pink-300 py-4 px-6'>
-        <h2 className='font-semibold text-2xl logo'>
+      <div className='fixed z-50 w-full flex justify-between items-center bg-pink-300 py-4 px-4 sm:px-6'>
+        <h2 className='font-semibold text-xl sm:text-2xl logo'>
           <Link to={'/'} className='flex items-center'>
             Puja's Ice<IoIceCreamOutline size={30} />Cream
           </Link>
