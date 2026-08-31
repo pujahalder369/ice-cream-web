@@ -45,8 +45,8 @@ const PlaceOrder = () => {
             const afterDisc = (mainAmount * discount) / 100;
             const payPrice = Math.floor(mainAmount - afterDisc);
             return (
-              <div key={item?.id} className='grid grid-cols-[38%_60%] items-center gap-2 p-3 sm:p-6 pr-3.5 shadow-[0_0_10px_rgb(202,202,202)] rounded-lg'>
-                <div className='h-full w-full'>
+              <div key={item?.id} className='grid grid-cols-[45%_55%] sm:grid-cols-[40%_60%] items-center gap-2 p-3 sm:p-6 pr-3.5 shadow-[0_0_10px_rgb(202,202,202)] rounded-lg'>
+                <div className='h-[200px] sm:h-[250px] w-full'>
                   <img src={item?.image} alt={item?.name} className='object-cover h-full w-full rounded-lg' />
                 </div>
                 <div>
