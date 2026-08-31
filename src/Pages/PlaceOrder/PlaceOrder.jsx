@@ -3,7 +3,6 @@ import { ContextData } from '../../ContextProvider/Context';
 import { FaArrowLeftLong } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 import PaymentPopup from '../../Components/PaymentPopup/PaymentPopup';
-import './style.css';
 import { TbMoodEmpty } from 'react-icons/tb';
 
 const PlaceOrder = () => {
