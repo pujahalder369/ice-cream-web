@@ -24,7 +24,7 @@ const Header = () => {
               <div className='flex items-center gap-3 text-xl p-3'>
                 <RiLogoutCircleRLine size={25} />
               </div>
-              <span class="tooltiptext">LogOut</span>
+              <span className="tooltiptext">LogOut</span>
             </button>
           </div>
           <div className='bg-white shadow-lg rounded-full hover:shadow-xl hover:bg-pink-200 transition-all duration-300'>
